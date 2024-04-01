@@ -1,7 +1,7 @@
 
 # Prediction API
 
-Repository is backend of CoinStack Application, server one of the API's i.e. Prediction API
+Repository is backend of CoinStack Application, serve as one of the API's i.e. Prediction API
 
 
 ## Getting Started
