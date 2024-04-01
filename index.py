@@ -14,7 +14,7 @@ async def get_pred(symbol):
     print(symbol)
     data =  get_prediction(symbol)
     print("Data: ",data)
-    data = json.dumps(data, default=str)
+    data = json.dumps(data)
     # print("Data date: ", data.one_week_dates)
     # data = json.dumps(data)
     return data

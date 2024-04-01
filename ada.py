@@ -35,9 +35,9 @@ def get_ada():
 
             data = {
                 "one_week_dates":  week_dates,
-                "one_week_dollars": One_week_values.values,
+                "one_week_dollars": One_week_values.values.tolist(),
                 "one_month_dates": month_dates,
-                "one_month_dollars": pred_uc.predicted_mean.values
+                "one_month_dollars": pred_uc.predicted_mean.values.tolist()
             }
 
 

@@ -42,16 +42,19 @@ def get_bit():
         week_dates.append(item.strftime("%Y-%m-%d"))
 
     month_dates = []
+    print("Month Dates: ")
     for item in pred_uc.predicted_mean.index:
+        print(item)
         month_dates.append(item.strftime("%Y-%m-%d"))
 
-    
+    print("Motnh dayes array: ")
+    print(month_dates)
 
     data = {
         "one_week_dates":  week_dates,
-        "one_week_dollars": One_week_values.values,
+        "one_week_dollars": One_week_values.values.tolist(),
         "one_month_dates": month_dates,
-        "one_month_dollars": pred_uc.predicted_mean.values
+        "one_month_dollars": pred_uc.predicted_mean.values.tolist()
     }
 
 
