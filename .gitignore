@@ -1,0 +1,7 @@
+*.iml
+*.xml
+Lib/
+Scripts/
+Lib/site-packages/
+include/
+__pycache__/
